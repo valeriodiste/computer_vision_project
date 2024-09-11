@@ -1,6 +1,6 @@
 # Vision Transformer Memory as a Differentiable Search Index for Image Retrieval
 
-## 📚 Project Overview
+## 🔎 Project Overview
 
 This project explores a novel [information retrieval (IR)](https://en.wikipedia.org/wiki/Information_retrieval) framework applied to image retrieval that utilizes a **differentiable function** to generate a **sorted list of image identifiers** in response to a given **image query**.
 
@@ -8,9 +8,15 @@ The approach is called **Differentiable Search Index (DSI)**, and was originally
 
 In its original formulation, **DSI** aims at both encompassing all document's corpus information and executing retrieval within a single **Transformer language model**, instead of adopting the index-then-retrieve pipeline used in most modern IR sytems.
 
-The notebook file **"vision_transformer_dsi.ipynb"** presents the implemented DSI solution applied to an image retrieval task: a **Sequence to Sequence Vision Transformer** (ViT) model `f` that, given an image query `q` as input, returns a list of image IDs ranked by relevance to the given image query, and compares its performance with a traditional "index-then-retrieve" approach based on a **BoVW** baseline model.
+The implemented solution of the project is a **Sequence to Sequence Vision Transformer** (ViT) model `f` that, given an image query `q` as input, returns a list of image IDs ranked by relevance to the given image query.
 
-We evaluate the performance of the proposed models using the **Indexing Accuracy**, **Mean Average Precision (MAP)** and **Recall at K** metrics computed on multiple variations of the **ImageNet** and the **MS COCO** datasets, and we compare the results obtained for multiple ViT variations and  configurations with the aforementioned **BoVW** baseline.
+We evaluate the performance of the proposed models using the **Indexing Accuracy**, **Mean Average Precision (MAP)** and **Recall at K** metrics computed on multiple variations of the **ImageNet** and the **MS COCO** datasets, and we compare the results obtained for multiple ViT variations and configurations with a traditional "index-then-retrieve" pipeline approach based on a **Bag of Visual Words** baseline model.
+
+## 📚 Project Notebook
+
+The notebook file **"vision_transformer_dsi.ipynb"** presents the implemented DSI solution and allows to explore different parameters and configurations of the ViT model, as well as to evaluate the performance of the model either on the ImageNet or the MS COCO datasets, choose the size and characteristics of the datasets, train and test the ViT model, and compare the results with the baseline model.
+
+The notebook is also available at the following link: [vision_transformer_dsi.ipynb](https://drive.google.com/file/d/1xqJit0FAr_XR67uxtqCTeaNph37rkAPe/view?usp=sharing)
 
 ## 📝 Author
 
