@@ -1,0 +1,7 @@
+__pycache__/
+src/data/*
+src/models/*
+src/demo/*
+wandb
+dl-dsi-project
+lightning_logs
