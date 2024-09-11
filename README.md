@@ -12,15 +12,15 @@ The implemented solution of the project is a **Sequence to Sequence Vision Trans
 
 We evaluate the performance of the proposed models using the **Indexing Accuracy**, **Mean Average Precision (MAP)** and **Recall at K** metrics computed on multiple variations of the **ImageNet** and the **MS COCO** datasets, and we compare the results obtained for multiple ViT variations and configurations with a traditional "index-then-retrieve" pipeline approach based on a **Bag of Visual Words** baseline model.
 
+## 📄 Project Report
+
+A detailed report of the project work is available in the file [**"ViT_DSI_Project_Report.pdf"**](https://github.com/valeriodiste/computer_vision_project/blob/main/ViT_DSI_Project_Report.pdf) of the repository.
+
 ## 📚 Project Notebook
 
 The notebook file [**"vision_transformer_dsi.ipynb"**](https://github.com/valeriodiste/computer_vision_project/blob/main/vision_transformer_dsi.ipynb) presents the implemented DSI solution and allows to explore different parameters and configurations of the ViT model, as well as to evaluate the performance of the model either on the ImageNet or the MS COCO datasets, choose the size and characteristics of the datasets, train and test the ViT model, and compare the results with the baseline model.
 
 The notebook is also available at the following link: [vision_transformer_dsi.ipynb](https://drive.google.com/file/d/1xqJit0FAr_XR67uxtqCTeaNph37rkAPe/view?usp=sharing)
-
-## 📄 Project Report
-
-A detailed report of the project work is available in the file [**"ViT_DSI_Project_Report.pdf"**](https://github.com/valeriodiste/computer_vision_project/blob/main/ViT_DSI_Project_Report.pdf) of the repository.
 
 ## 📊 Project Presentation
 
